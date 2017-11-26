@@ -3,13 +3,6 @@
   font-size: 104%;
 }
 
-#container {
-  width: 90%;
-  height: 90%;
-  display: flex;
-  padding: 5%;
-}
-
 #title {
   font-weight: bolder;
   font-size: 200%;
@@ -20,7 +13,6 @@
 }
 
 #detail {
-  font-style: italic;
   color: red;
 }
 
