@@ -50,6 +50,6 @@ var data = [{
 	"details" : "Participated"
 }];
 
-$(document).ready(function() {
+$("#grid").ready(function() {
 	createCards(data);
 });

@@ -15,6 +15,6 @@ var data = [{
 	"details" : "Primary School [2008-2013]"
 }];
 
-$(document).ready(function() {
+$("#grid").ready(function() {
 	createCards(data);
 });
