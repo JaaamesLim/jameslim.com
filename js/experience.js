@@ -14,7 +14,3 @@ var data = [{
 	"name" 		: "St Gabriel's Primary School",
 	"details" : "Primary School [2008-2013]"
 }];
-
-$("#grid").ready(function() {
-	createCards(data);
-});

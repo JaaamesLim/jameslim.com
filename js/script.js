@@ -1,4 +1,4 @@
-function createCards(data) {
+$("#grid").ready(function() {
 	data.forEach(function(element) {
 		$("#grid").append(`\
 			<div class="card"><a target=_blank href=\"${element.link}\">\
@@ -7,4 +7,4 @@ function createCards(data) {
         <p id="details">${element.details}</p>\
 			</a></div>`);
 	});
-}
+});

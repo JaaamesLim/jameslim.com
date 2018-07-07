@@ -29,7 +29,3 @@ var data = [{
 	"name" 		: "Found",
 	"details" : "School app"
 }];
-
-$("#grid").ready(function() {
-	createCards(data);
-});

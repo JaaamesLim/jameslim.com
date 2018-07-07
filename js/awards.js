@@ -49,7 +49,3 @@ var data = [{
 	"name" 		: "HDB Hackathon",
 	"details" : "Participated"
 }];
-
-$("#grid").ready(function() {
-	createCards(data);
-});
