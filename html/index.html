@@ -2,13 +2,20 @@
 <html>
   <head>
     <title>James Lim</title>
+
+    <!-- declaring character encoding -->
+    <meta charset="utf-8"/>
+
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/menu.css">
     <link rel="stylesheet" type="text/css" href="../css/button.css">
     <link rel="stylesheet" type="text/css" href="../css/animation.css">
   </head>
   <body>
+    <!-- Top of the page -->
     <div id="header">
+      <!-- Top menu -->
       <ul id="menu">
         <li id="name"><a id="active">JAMES LIM</a></li>
         <li><a href="experience.html">Experience</a></li>
@@ -17,13 +24,15 @@
       </ul>
     </div>
 
+    <!-- Main body of web page (uses flexbox) -->
     <div id="main">
-      <img title="James Lim" alt="photo of me" src="../images/face.009.jpeg">
+      <img title="James Lim" alt="photo of me" src="../images/faces/face.009.jpeg">
       <h1 id="title">Hello there.</h1>
       <h2 id="subtitle">
         I mostly do <strong>Swift</strong> and <strong>Ruby on Rails</strong><br>
         Picking up <strong>C</strong> and <strong>C++</strong>
       </h2> 
+      <!-- Mail to button -->
       <a class="button" href="mailto:me@jameslim.com">
         Contact me@jameslim.com
       </a>
@@ -34,7 +43,9 @@
       </div>
     </div>
     
+    <!-- referencing jquery libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- reading js files -->
     <script type="text/javascript" src="../js/index.js"></script>
   </body>
 </html>

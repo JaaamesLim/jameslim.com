@@ -1,3 +1,5 @@
+// array of awards as json
+
 var data = [{
 	"link" 		: "https://developer.apple.com/wwdc/",
 	"img" 		: "awards/wwdc2018.png",

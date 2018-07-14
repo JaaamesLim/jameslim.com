@@ -47,6 +47,7 @@ strong {
 #main img {
   width: 25%;                 /* Just setting the width */
   margin-bottom: 20px;        /* Spacing between icon and words */
+  border: 5px solid;
 }
 
 /* Check if device is a phone */

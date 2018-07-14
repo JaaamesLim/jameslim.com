@@ -1,3 +1,5 @@
+// array of apps as json
+
 var data = [{
 	"link" 		: "",
 	"img" 		: "apps/get_hacking.png",

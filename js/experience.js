@@ -1,3 +1,5 @@
+// array of experiences as json
+
 var data = [{
 	"link" 		: "http://tinkertanker.com/",
 	"img" 		: "experience/tinkertanker.png",
