@@ -2,6 +2,7 @@
   display: block;
 
   width: calc((100% - 120px)/3);
+
   background-color: white;
   margin: 20px;
 
@@ -13,10 +14,10 @@
   transition: all 0.5s;
 }
 
-@media only screen and (max-width: 750px) {
-    .card {
-      width: calc(100% - 40px);
-    }
+@media (max-width: 750px) {
+  .card {
+    width: calc(100% - 40px);
+  }
 }
 
 .card:hover {

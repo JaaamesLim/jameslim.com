@@ -19,6 +19,20 @@ strong {
   font-weight: bold;
 }
 
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0; 
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 1;
+  
+  align-items: center;
+  justify-content: center;
+}
+
 /* Header contains menu */
 #header {
   top: 0;                     /* stick to the top */
@@ -51,9 +65,13 @@ strong {
 }
 
 /* Check if device is a phone */
-@media only screen and (max-width: 1250px) {
+@media (max-width: 750px) {
+  #main {
+    height: auto;
+  }
+
   #main img {
-    width: 50%;               /* Just setting the width */
+    width: 100%;               /* Just setting the width */
   }
 }
 
