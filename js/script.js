@@ -8,3 +8,11 @@ $("#grid").ready(function() {
 			</a></div>`);
 	});
 });
+
+$("#navbar #button").click(function() {
+	$("#overlay").fadeToggle();
+});
+
+$("#overlay").ready(function() {
+	$("#overlay").fadeToggle();
+});

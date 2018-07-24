@@ -26,14 +26,14 @@ function updateStatus() {
 		$("img").attr("src", "../images/faces/face.006.jpeg");
 	} else if (localStorage.supports >= 250) {
 		background = "black";
-		text = "white";
+		text = "red";
 		$("img").attr("src", "../images/faces/face.005.jpeg");
 	} else if (localStorage.supports >= 100) {
 		background = "white";
 		text = "black";
 		$("img").attr("src", "../images/faces/face.009.jpeg");
 	} else {
-		background = "white";
+			background = "white";
 		text = "black";
 		$("img").attr("src", "../images/faces/face.003.jpeg");
 	}
@@ -64,4 +64,12 @@ $("#main status").ready(function() {
 		localStorage.supports = 0;
 	}
 	updateStatus();
+});
+
+$("#navbar #button").click(function() {
+	$("#overlay").fadeToggle();
+});
+
+$("#overlay").ready(function() {
+	$("#overlay").fadeToggle();
 });
