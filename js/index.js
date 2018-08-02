@@ -15,27 +15,27 @@ function updateStatus() {
 		background = "#eb909f";
 		text = "#d9bed1";
 		border = "5px";
-		$("img").attr("src", "../images/faces/face.008.jpeg");
+		$("img").attr("src", "images/faces/face.008.jpeg");
 	} else if (localStorage.supports >= 1000) {
 		background = "#fe71cf";
 		text = "#fffb97";
-		$("img").attr("src", "../images/faces/face.007.jpeg");
+		$("img").attr("src", "images/faces/face.007.jpeg");
 	} else if (localStorage.supports >= 500) {
 		background = "#060d15";
 		text = "#ede0fa";
-		$("img").attr("src", "../images/faces/face.006.jpeg");
+		$("img").attr("src", "images/faces/face.006.jpeg");
 	} else if (localStorage.supports >= 250) {
 		background = "black";
 		text = "red";
-		$("img").attr("src", "../images/faces/face.005.jpeg");
+		$("img").attr("src", "images/faces/face.005.jpeg");
 	} else if (localStorage.supports >= 100) {
 		background = "white";
 		text = "black";
-		$("img").attr("src", "../images/faces/face.009.jpeg");
+		$("img").attr("src", "images/faces/face.009.jpeg");
 	} else {
 			background = "white";
 		text = "black";
-		$("img").attr("src", "../images/faces/face.003.jpeg");
+		$("img").attr("src", "images/faces/face.003.jpeg");
 	}
 
 	$("*").css("color", text);
