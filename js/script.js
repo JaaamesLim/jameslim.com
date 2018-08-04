@@ -41,4 +41,3 @@ $(document).scroll(function() {
 	});
 
 });
-

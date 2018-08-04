@@ -1,5 +1,4 @@
 // array of apps as json
-
 function updateStatus() {
 	if (localStorage == 0) {
 		$("#status").html("You're not a supporter");
