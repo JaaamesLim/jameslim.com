@@ -1,13 +1,13 @@
 $("#grid").ready(function() {
-	for (var i = 0; i < data.length; i++) {
-		element = data[i];
+	data.forEach(function(element) {
 		$("#grid").append(`\
-			<div class="card" id=${i} in-viewport="false"><a target=_blank href=\"${element.link}\">\
+			<div class="card" in-viewport="false"><a target=_blank href=\"${element.link}\">\
         <img id="thumbnail" alt="${element.name}" title="${element.name}" src=\"../images/${element.img}\">\
         <p id="name">${element.name}</p>\
         <p id="details">${element.details}</p>\
 			</a></div>`);
-	}
+
+	});
 });
 
 $("#navbar #button").click(function() {
