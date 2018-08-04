@@ -54,7 +54,7 @@ function updateStatus() {
 }
 
 $("#support").click(function() {
-	$("img").animate({opacity: 0.1}, 500).animate({opacity: 1}, 500);
+	$("img").fadeTo(500, 0.1).fadeTo(500, 1);
 	localStorage.supports++;
 	updateStatus();
 });

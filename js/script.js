@@ -24,20 +24,21 @@ $(document).scroll(function() {
 	$(".card").each(function() {
 		var card = $(this);
 		var top = card.offset().top;
-		var cardHeight = card.height()
+		var cardHeight = card.height();
 		if (card.attr("in-viewport") == "false") {
-			card.fadeTo(0, 0.01);	
+			card.fadeTo(0, 0.01);
 			if (top < offset + height && top > offset - cardHeight + 64) {
 				card.attr("in-viewport", "true");
-				card.fadeTo(100, 1);	
+				card.fadeTo(100, 1);
 			}
 		} else {
 			card.fadeTo(0, 1);	
 			if (top > offset + height || top < offset - cardHeight + 64) {
 				card.attr("in-viewport", "false");
-				card.fadeTo(100, 0.01);	
+				card.fadeTo(100, 0.01);
 			}		
 		}
 	});
 
 });
+
