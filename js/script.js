@@ -27,7 +27,7 @@ $(document).scroll(function() {
 		var cardHeight = card.height()
 		if (card.attr("in-viewport") == "false") {
 			card.fadeTo(0, 0.01);	
-		if (top < offset + height && top > offset - cardHeight + 64) {
+			if (top < offset + height && top > offset - cardHeight + 64) {
 				card.attr("in-viewport", "true");
 				card.fadeTo(100, 1);	
 			}
