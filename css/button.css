@@ -10,6 +10,8 @@
   cursor: pointer;            /* default is text */
 
   transition: all 0.5s;       /* animate all attributes for duration of 0.5s */
+
+  user-select: none;
 }
 
 /* when hovered over */
