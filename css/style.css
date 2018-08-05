@@ -65,11 +65,14 @@ strong {
 }
 
 /* Check if device is a phone */
-@media (max-width: 750px) {
+@media (max-width: 750px), (max-height: 750px) {
   #main {
     height: auto;
   }
+}
 
+/* Check if device is a phone */
+@media (max-width: 750px) {
   #main img {
     width: 100%;               /* Just setting the width */
   }
